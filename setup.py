@@ -34,48 +34,18 @@ setup(
         ]
     },
     install_requires=[
-        "argbind",
-        "numpy",
-        "soundfile",
         "pyloudnorm",
         "importlib-resources",
-        "scipy",
-        "torch",
         "julius",
-        "torchaudio",
         "ffmpy",
         "ipython",
         "rich",
-        "matplotlib",
-        "librosa",
         "pystoi",
         "torch_stoi",
         "flatten-dict",
         "markdown2",
         "randomname",
-        # Borrowing pin from tensorboard source: https://github.com/tensorflow/tensorboard/commit/e795312f70537cb9c9ab4bd2a08a03e77f0356a5.
         "protobuf >= 3.19.6, != 4.24.0, < 5.0.0",
         "tensorboard",
-        "tqdm",
-    ],
-    extras_require={
-        "tests": [
-            "pytest",
-            "pytest-cov",
-            "line_profiler",
-            "pesq",
-            "gradio==3.32.0",
-            "transformers>=4.23.1",
-        ],
-        "docs": [
-            "sphinx",
-            "sphinx-rtd-theme",
-            "myst-parser",
-            "myst-nb",
-            "sphinx-multiversion",
-        ],
-        "whisper": [
-            "transformers>=4.23.1",
-        ],
-    },
+    ]
 )
