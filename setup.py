@@ -45,7 +45,7 @@ setup(
         "flatten-dict",
         "markdown2",
         "randomname",
-        "protobuf >= 3.19.6, != 4.24.0, < 5.0.0",
+        "protobuf==5.29.1",
         "tensorboard",
     ]
 )
